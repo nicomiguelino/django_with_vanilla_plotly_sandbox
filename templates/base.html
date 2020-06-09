@@ -4,9 +4,13 @@
     <title>
         {% block title %} Django with Plotly {% endblock %}
     </title>
+
+    {% include "partials/library_includes.html" %}
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
+    <div class="container mt-5">
+        {% block content %}
+        {% endblock %}
+    </div>
 </body>
 </html>
