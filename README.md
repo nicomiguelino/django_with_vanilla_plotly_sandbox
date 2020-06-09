@@ -1,4 +1,4 @@
-# Integrating (Vanilla) Plotly witj Django
+# Integrating (Vanilla) Plotly with Django
 
 This repository demonstrates using Plotly charts in your Django application.
 
